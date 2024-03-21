@@ -1,0 +1,349 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(84, 84, 117);
+}
+.logo{
+    /* width: 100%; */
+    color: white;
+    height: 40px;
+    background-color: rgb(5, 5, 46);
+}
+ul li a{
+    float: right;
+    margin-top: -45px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+a:hover{
+    color: lightblue;
+}
+
+.statement{
+    color: white;
+    margin-top: 150px;
+    margin-left: 60px;
+}
+span{
+    color: rgb(4, 4, 48);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-size: 30px; */
+}
+.line11{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.line22{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.biocontent{
+    margin-left: 60px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.icon i{
+    margin: 5px;
+    margin-left: 60px;
+}
+.about{
+   
+    height: 400px;
+    width: 1200px;
+    margin-top: 150px;
+}
+.box1{
+    border: 2px solid white;
+    height: 400px;
+    width: 400px;
+   margin-left: 150px;
+   background-image: url(https://lucysmagazine.com/wp-content/uploads/2015/01/7384930_orig.jpg);
+   background-size: cover;
+   border-radius: 200px;
+}
+.box2{
+    height: 400px;
+    width: 500px;
+    margin-top: -400px;
+    margin-left: 650px;
+}
+.content{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.titles{
+    
+    color: skyblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ti-2{
+    margin-top: 10px;
+}
+.ti-3{
+    margin-left: 270px;
+    margin-top: -48px;
+}
+.ti-4{
+    margin-left: 270px;
+    margin-top: 10px;
+}
+.ti-5{
+  margin-top: 10px;
+}
+.ti-6{
+    margin-left: 270px;
+    margin-top: -17px;
+}
+#btn{
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: white;
+    font-weight: bolder;
+    margin-left: 650px;
+    margin-top: -230px;
+}
+.skillbar{
+    /* border: 2px solid white; */
+    height: 50px;
+    width: 1230px;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    width: 1000px; /* Full width */
+    background-color: #ddd; /* Grey background */
+    border-radius: 20px;
+    height: 20px;
+    margin: 10px;
+    margin-top: 25px;
+  }
+  
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+    border-radius: 20px;
+    height: 10px;
+  }
+  
+  .html {width: 90%; background-color: #04AA6D;color: black;} /* Green */
+  .css {width: 80%; background-color: #2196F3; color: black;} /* Blue */
+  .js {width: 65%; background-color: #f44336; color: black;} /* Red */
+  .php {width: 60%; background-color: #808080; color: black;} /* Dark Grey */
+
+p{
+    margin-top:-10px ;
+}
+.contact-box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 1200px;
+    margin-top: 140px;
+}
+.box-1{
+    color: white;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.line{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.container-1{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 400px;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+.container-2{
+    border: 2px solid white;
+    background-color: white ;
+    height: 450px;
+    width: 400px;
+    /* float: right; */
+    margin-top: -300px;
+    margin-left: 630px;
+    box-shadow:5px 5px 2px lightblue;
+    border-radius: 10px;
+}
+.add{
+    color: lightblue;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-top: -25px;
+}
+.add-1{
+    font-size: 15px;
+    margin-left:40px ;
+    color: white;
+}
+.num{
+    color: lightblue;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-top: -30px;
+}
+.num-1{
+    font-size: 15px;
+    margin-left:40px ;
+    color: white;
+}
+.email{
+    color: lightblue;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-top: -25px;
+}
+.email-1{
+    font-size: 15px;
+    margin-left:40px ;
+    color: white;
+}
+.line2{
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(4, 4, 48);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.txt-1{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.txt-2{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.txt-3{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.txt-4{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#text1{
+    height: 30px;
+    width: 300px;
+    margin-left: 5px;
+}
+#text4{
+     height: 90px;
+     width: 300px;
+     margin-left: 5px;
+}
+#text2{
+    height: 30px;
+    width: 300px;
+    margin-left: 5px;
+}
+#text3{
+    height: 30px;
+    width: 300px;
+    margin-left: 5px;
+}
+#button{
+    font-size: 20px;
+    font-weight: bolder;
+    width: 100px;
+    border: rgb(4, 4, 48);
+    background-color: rgb(4, 4, 48);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.picture{
+    background-image: url(https://lucysmagazine.com/wp-content/uploads/2015/01/4105774_orig.jpg);
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 200px;
+    float: right;
+    border: 2px solid white;
+    margin-top: -170px;
+}
+
+@media only screen and (min-width:200px) and (max-width:567px){
+    .navbar{
+        width: 100%;
+        height: 100px;
+        /* position: absolute; */
+    background-color: rgb(5, 5, 46);
+    }
+    .logo{
+        width: 100%;
+        /* margin:15px; */
+        /* border: 2px solid red; */
+        position: relative;
+        top: 10px;
+        left: 20px;
+    }
+    .navbar ul{
+        width: 100%;
+        height: auto;
+        position: relative;
+        /* border: 2px solid green; */
+        top: 50px;
+        /* overflow: auto; */
+        /* clear: both; */
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .statement{
+        width: 60%;
+        height: auto;
+        margin:auto;
+        margin-top: 20px;
+        /* border: 2px solid black; */
+    }
+    .picture{
+        width: 60%;
+        background-image: url(https://lucysmagazine.com/wp-content/uploads/2015/01/4105774_orig.jpg);
+        background-size: cover;
+        height: 250px;
+        width: 250px;
+        border-radius: 200px;
+        /* float: right; */
+        border: 2px solid white;
+        margin: auto;
+        margin-top: 0px;
+        float: left;
+        margin-left: 20%;
+    }
+    .biocontent{
+        margin-left: 60px;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 250px;
+    }
+    .icon i{
+         margin: 5px;
+         margin-left: 60px;
+    }
+
+   
+}
